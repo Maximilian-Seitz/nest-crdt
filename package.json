@@ -1,0 +1,27 @@
+{
+  "name": "nest-crdt",
+  "version": "1.0.0",
+  "description": "Nested CRDTs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "CRDT"
+  ],
+  "author": "Maximilian Seitz <seitz.m95@gmail.com>",
+  "repository": "https://github.com/Maximilian-Seitz/nest-crdt.git",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "vectorclock": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "@types/uuid": "^8.3.3",
+    "ts-node": "^10.4.0",
+    "typescript": "4.7.2"
+  }
+}
